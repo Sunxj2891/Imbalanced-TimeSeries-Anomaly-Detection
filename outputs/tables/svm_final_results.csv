@@ -1,0 +1,4 @@
+model_name,best_parameters,dev_average_precision,test_accuracy,test_precision_class_1,test_recall_class_1,test_f1_class_1,test_roc_auc,test_pr_auc_average_precision,TN,FP,FN,TP
+SVM,"{'svm__C': 10, 'svm__gamma': 0.001}",0.92568,0.9784,0.95631,0.80081,0.87168,0.97066,0.91344,2430,9,49,197
+SVM_Class_balanced,"{'svm__C': 10, 'svm__gamma': 0.001}",0.92288,0.97914,0.95238,0.81301,0.87719,0.97228,0.91581,2429,10,46,200
+SVM_SMOTE,"{'svm__C': 10, 'svm__gamma': 0.001}",0.92149,0.96946,0.79078,0.9065,0.8447,0.97336,0.91134,2380,59,23,223

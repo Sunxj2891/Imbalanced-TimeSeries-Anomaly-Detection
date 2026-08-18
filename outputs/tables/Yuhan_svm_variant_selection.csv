@@ -1,0 +1,4 @@
+svm_variant,dev_average_precision,params
+SVM,0.9257163321581141,"{'svm__C': 10, 'svm__gamma': 0.001}"
+SVM Class Balanced,0.9227414523769969,"{'svm__C': 10, 'svm__gamma': 0.001}"
+SVM SMOTE,0.9187857949865345,"{'svm__C': 1, 'svm__gamma': 0.001}"

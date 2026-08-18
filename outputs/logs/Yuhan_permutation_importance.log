@@ -1,0 +1,29 @@
+2026-05-17 21:17:17,041 - INFO - Loading engineered train/dev/test data
+2026-05-17 21:17:17,065 - INFO - Training Logistic Regression
+2026-05-17 21:17:17,079 - INFO - Best Logistic Regression dev average precision: 0.9198
+2026-05-17 21:17:17,079 - INFO - Best Logistic Regression parameters: {}
+2026-05-17 21:17:17,079 - INFO - Training SVM variants and selecting the best one
+2026-05-17 21:17:30,754 - INFO - Best SVM dev average precision: 0.9257
+2026-05-17 21:17:30,754 - INFO - Best SVM parameters: {'svm__C': 10, 'svm__gamma': 0.001}
+2026-05-17 21:18:07,346 - INFO - Best SVM Class Balanced dev average precision: 0.9227
+2026-05-17 21:18:07,346 - INFO - Best SVM Class Balanced parameters: {'svm__C': 10, 'svm__gamma': 0.001}
+2026-05-17 21:19:45,432 - INFO - Best SVM SMOTE dev average precision: 0.9188
+2026-05-17 21:19:45,432 - INFO - Best SVM SMOTE parameters: {'svm__C': 1, 'svm__gamma': 0.001}
+2026-05-17 21:19:45,432 - INFO - Selected SVM representative: SVM
+2026-05-17 21:19:45,439 - INFO - Training Random Forest
+2026-05-17 21:20:11,301 - INFO - Best Random Forest dev average precision: 0.9287
+2026-05-17 21:20:11,301 - INFO - Best Random Forest parameters: {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+2026-05-17 21:20:11,301 - INFO - Training XGBoost
+2026-05-17 21:20:23,043 - INFO - Best XGBoost dev average precision: 0.9328
+2026-05-17 21:20:23,044 - INFO - Best XGBoost parameters: {'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 1.0}
+2026-05-17 21:20:23,044 - INFO - Refitting final Logistic Regression on train + dev
+2026-05-17 21:20:23,061 - INFO - Running permutation importance for Logistic Regression
+2026-05-17 21:20:25,369 - INFO - Refitting final SVM on train + dev
+2026-05-17 21:20:26,997 - INFO - Running permutation importance for SVM
+2026-05-17 21:20:27,838 - INFO - Refitting final Random Forest on train + dev
+2026-05-17 21:20:28,500 - INFO - Running permutation importance for Random Forest
+2026-05-17 21:20:29,090 - INFO - Refitting final XGBoost on train + dev
+2026-05-17 21:20:29,332 - INFO - Running permutation importance for XGBoost
+2026-05-17 21:20:29,470 - INFO - Loading final MLP model
+2026-05-17 21:20:29,485 - INFO - Running permutation importance for MLP
+2026-05-17 21:20:29,536 - INFO - Permutation importance complete

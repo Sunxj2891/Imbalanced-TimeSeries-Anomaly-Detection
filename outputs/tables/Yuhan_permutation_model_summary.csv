@@ -1,0 +1,6 @@
+model,dev_average_precision,test_average_precision,best_params
+Logistic Regression,0.9198429271099882,0.9072252099166459,{}
+SVM,0.9257163321581141,0.9134351703841156,"{'svm__C': 10, 'svm__gamma': 0.001}"
+Random Forest,0.9286844861773899,0.9153780809546471,"{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}"
+XGBoost,0.93281036397866,0.9139197765625354,"{'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 1.0}"
+MLP,0.930800669148336,0.9240319607266901,"{'imbalance_method': 'none', 'hidden_layer_sizes': '(16, 8)', 'alpha': 0.001, 'learning_rate_init': 0.0005}"

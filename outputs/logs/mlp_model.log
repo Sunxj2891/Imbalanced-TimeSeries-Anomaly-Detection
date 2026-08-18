@@ -1,0 +1,75 @@
+2026-05-17 20:42:31,443 - INFO - Loading engineered train/dev/test data
+2026-05-17 20:42:31,471 - INFO - Train shape: (12528, 12)
+2026-05-17 20:42:31,471 - INFO - Train class distribution: {0: 11381, 1: 1147}
+2026-05-17 20:42:31,471 - INFO - Dev shape: (2685, 12)
+2026-05-17 20:42:31,471 - INFO - Dev class distribution: {0: 2439, 1: 246}
+2026-05-17 20:42:31,471 - INFO - Test shape: (2685, 12)
+2026-05-17 20:42:31,471 - INFO - Test class distribution: {0: 2439, 1: 246}
+2026-05-17 20:42:31,471 - INFO - Feature columns: ['Profile_mean', 'Profile_stdev', 'Profile_skewness', 'Profile_kurtosis', 'DM_mean', 'DM_stdev', 'DM_skewness', 'DM_kurtosis', 'profile_cv', 'DM_cv', 'profile_shape_score', 'DM_shape_score']
+2026-05-17 20:42:31,968 - INFO - imblearn is available; including RandomOverSampler MLP variant
+2026-05-17 20:42:31,968 - INFO - Tuning MLP config 1/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:32,597 - INFO - Tuning MLP config 2/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:33,344 - INFO - Tuning MLP config 3/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:34,003 - INFO - Tuning MLP config 4/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:34,793 - INFO - Tuning MLP config 5/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:35,529 - INFO - Tuning MLP config 6/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:36,413 - INFO - Tuning MLP config 7/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.001}
+2026-05-17 20:42:37,408 - INFO - Tuning MLP config 8/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:38,540 - INFO - Tuning MLP config 9/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.001}
+2026-05-17 20:42:41,081 - INFO - Tuning MLP config 10/60: imbalance_method=none, params={'alpha': 0.0001, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:42,103 - INFO - Tuning MLP config 11/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:42,727 - INFO - Tuning MLP config 12/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:43,463 - INFO - Tuning MLP config 13/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:44,092 - INFO - Tuning MLP config 14/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:44,870 - INFO - Tuning MLP config 15/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:45,654 - INFO - Tuning MLP config 16/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:46,559 - INFO - Tuning MLP config 17/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.001}
+2026-05-17 20:42:47,553 - INFO - Tuning MLP config 18/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:48,671 - INFO - Tuning MLP config 19/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.001}
+2026-05-17 20:42:49,918 - INFO - Tuning MLP config 20/60: imbalance_method=none, params={'alpha': 0.001, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:50,984 - INFO - Tuning MLP config 21/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:51,602 - INFO - Tuning MLP config 22/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:52,337 - INFO - Tuning MLP config 23/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:52,967 - INFO - Tuning MLP config 24/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:53,737 - INFO - Tuning MLP config 25/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.001}
+2026-05-17 20:42:54,481 - INFO - Tuning MLP config 26/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:55,364 - INFO - Tuning MLP config 27/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.001}
+2026-05-17 20:42:56,358 - INFO - Tuning MLP config 28/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:57,508 - INFO - Tuning MLP config 29/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.001}
+2026-05-17 20:42:58,483 - INFO - Tuning MLP config 30/60: imbalance_method=none, params={'alpha': 0.01, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.0005}
+2026-05-17 20:42:59,406 - INFO - Tuning MLP config 31/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.001}
+2026-05-17 20:43:01,151 - INFO - Tuning MLP config 32/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.0005}
+2026-05-17 20:43:02,646 - INFO - Tuning MLP config 33/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.001}
+2026-05-17 20:43:04,528 - INFO - Tuning MLP config 34/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.0005}
+2026-05-17 20:43:06,067 - INFO - Tuning MLP config 35/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.001}
+2026-05-17 20:43:08,885 - INFO - Tuning MLP config 36/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.0005}
+2026-05-17 20:43:12,833 - INFO - Tuning MLP config 37/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.001}
+2026-05-17 20:43:18,021 - INFO - Tuning MLP config 38/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.0005}
+2026-05-17 20:43:23,210 - INFO - Tuning MLP config 39/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.001}
+2026-05-17 20:43:31,951 - INFO - Tuning MLP config 40/60: imbalance_method=random_oversampling, params={'alpha': 0.0001, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.0005}
+2026-05-17 20:43:44,057 - INFO - Tuning MLP config 41/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.001}
+2026-05-17 20:43:45,741 - INFO - Tuning MLP config 42/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.0005}
+2026-05-17 20:43:47,252 - INFO - Tuning MLP config 43/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.001}
+2026-05-17 20:43:48,784 - INFO - Tuning MLP config 44/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.0005}
+2026-05-17 20:43:50,316 - INFO - Tuning MLP config 45/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.001}
+2026-05-17 20:43:56,668 - INFO - Tuning MLP config 46/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.0005}
+2026-05-17 20:44:02,219 - INFO - Tuning MLP config 47/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.001}
+2026-05-17 20:44:08,066 - INFO - Tuning MLP config 48/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.0005}
+2026-05-17 20:44:16,950 - INFO - Tuning MLP config 49/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.001}
+2026-05-17 20:44:24,759 - INFO - Tuning MLP config 50/60: imbalance_method=random_oversampling, params={'alpha': 0.001, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.0005}
+2026-05-17 20:44:37,576 - INFO - Tuning MLP config 51/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.001}
+2026-05-17 20:44:39,269 - INFO - Tuning MLP config 52/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (8,), 'learning_rate_init': 0.0005}
+2026-05-17 20:44:40,759 - INFO - Tuning MLP config 53/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.001}
+2026-05-17 20:44:42,470 - INFO - Tuning MLP config 54/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (16,), 'learning_rate_init': 0.0005}
+2026-05-17 20:44:44,060 - INFO - Tuning MLP config 55/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.001}
+2026-05-17 20:44:48,235 - INFO - Tuning MLP config 56/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (32,), 'learning_rate_init': 0.0005}
+2026-05-17 20:44:50,558 - INFO - Tuning MLP config 57/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.001}
+2026-05-17 20:44:57,303 - INFO - Tuning MLP config 58/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.0005}
+2026-05-17 20:45:04,023 - INFO - Tuning MLP config 59/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.001}
+2026-05-17 20:45:09,820 - INFO - Tuning MLP config 60/60: imbalance_method=random_oversampling, params={'alpha': 0.01, 'hidden_layer_sizes': (32, 16), 'learning_rate_init': 0.0005}
+2026-05-17 20:45:18,650 - INFO - Best MLP hyperparameters: {'alpha': 0.001, 'hidden_layer_sizes': (16, 8), 'learning_rate_init': 0.0005, 'imbalance_method': 'none'}
+2026-05-17 20:45:18,651 - INFO - Best MLP dev PR-AUC: 0.9308
+2026-05-17 20:45:18,656 - INFO - Training final MLP on train + dev
+2026-05-17 20:45:19,735 - INFO - Evaluating final MLP on test set
+2026-05-17 20:45:19,742 - INFO - Saving MLP outputs
+2026-05-17 20:45:19,751 - INFO - Final MLP test metrics: {'model': 'MLP', 'accuracy': 0.982122905027933, 'precision': 0.9541284403669725, 'recall': 0.8455284552845529, 'f1_score': 0.896551724137931, 'roc_auc': np.float64(0.979013123464568), 'pr_auc_average_precision': np.float64(0.9240319607266901), 'TN': 2429, 'FP': 10, 'FN': 38, 'TP': 208, 'imbalance_method': 'none', 'best_hidden_layer_sizes': (16, 8), 'best_alpha': 0.001, 'best_learning_rate_init': 0.0005}

@@ -1,0 +1,17 @@
+2026-05-17 18:27:30,012 - INFO - Initiating Logistic Regression Baseline Pipeline
+2026-05-17 18:27:30,043 - INFO - Loading engineered train/dev/test data
+2026-05-17 18:27:30,081 - INFO - Train shape: (12528, 12)
+2026-05-17 18:27:30,082 - INFO - Dev shape: (2685, 12)
+2026-05-17 18:27:30,083 - INFO - Test shape: (2685, 12)
+2026-05-17 18:27:30,117 - INFO - Tuning Logistic Regression Baseline on the dev set
+2026-05-17 18:27:30,137 - INFO - Evaluated Hyperparameters: {'C': 0.001} | Dev PR-AUC: 0.89782
+2026-05-17 18:27:30,152 - INFO - Evaluated Hyperparameters: {'C': 0.01} | Dev PR-AUC: 0.91440
+2026-05-17 18:27:30,172 - INFO - Evaluated Hyperparameters: {'C': 0.1} | Dev PR-AUC: 0.92292
+2026-05-17 18:27:30,197 - INFO - Evaluated Hyperparameters: {'C': 1.0} | Dev PR-AUC: 0.91984
+2026-05-17 18:27:30,226 - INFO - Evaluated Hyperparameters: {'C': 10.0} | Dev PR-AUC: 0.91706
+2026-05-17 18:27:30,251 - INFO - Evaluated Hyperparameters: {'C': 100.0} | Dev PR-AUC: 0.91685
+2026-05-17 18:27:30,259 - INFO - Best Logistic Regression Baseline parameters: {'C': 0.1}
+2026-05-17 18:27:30,260 - INFO - Best Logistic Regression Baseline dev PR-AUC: 0.9229
+2026-05-17 18:27:30,293 - INFO - Training final Logistic Regression Baseline on train + dev
+2026-05-17 18:27:30,326 - INFO - Evaluating final Logistic Regression Baseline on test set
+2026-05-17 18:27:30,342 - INFO - Logistic Regression Baseline training complete

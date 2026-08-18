@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,f1_score,roc_auc,pr_auc_average_precision,TN,FP,FN,TP,imbalance_method,best_hidden_layer_sizes,best_alpha,best_learning_rate_init
+MLP,0.982122905027933,0.9541284403669725,0.8455284552845529,0.896551724137931,0.979013123464568,0.9240319607266901,2429,10,38,208,none,"(16, 8)",0.001,0.0005

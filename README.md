@@ -57,6 +57,27 @@ Imbalanced-TimeSeries-Anomaly-Detection/
     └── tables/                 # Model performance tables (CSV)
 ```
 
+
+---
+
+## Artifact validation
+
+The headline metrics are checked-in experiment outputs, not values copied from the course PDF. Run the following command to validate table schemas, confusion-matrix totals, and the reported PR-AUC/F1 values:
+
+~~~bash
+python3 scripts/verify_results.py
+~~~
+
+The verifier does not retrain models and does not modify outputs. Rebuilding the figures from the processed train/dev/test split is available with:
+
+~~~bash
+python3 code/generate_all_model_result_figures.py
+~~~
+
+## Scope
+
+HTRU2 is a tabular pulsar-candidate benchmark with signal-summary features. This repository demonstrates imbalanced binary classification and model selection; it should not be described as a production anomaly-detection service or as a deployed time-series system.
+
 ---
 
 ## Contributors
